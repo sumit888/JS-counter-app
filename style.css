@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#increment-btn{
+    display: inline;
+    background-color: red;
+    padding: 5px 10px;
+    color: #fff;
+    outline: none;
+    border-radius: 10px;
+    font-size: 2em;
+    border: 2px solid white;
+}
