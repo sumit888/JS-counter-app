@@ -1,1 +1,1 @@
-document.getElementById("count-el").innerText = 2;
+document.getElementById("count").innerText = 2;
