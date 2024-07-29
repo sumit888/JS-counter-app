@@ -9,6 +9,13 @@ body{
     text-align: center;
 }
 
+header > h1{
+    background-color: brown;
+    color: #fff;
+    padding-block: 10px;
+    margin-bottom: 2em;
+}
+
 main{
     margin-top: 20px;
     display: flex;
@@ -17,13 +24,21 @@ main{
     gap: 20px;
 }
 
-#increment-btn{
-    display: inline;
-    background-color: red;
-    padding: 5px 10px;
-    color: #fff;
-    outline: none;
-    border-radius: 10px;
-    font-size: 2em;
-    border: 2px solid white;
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
 }
